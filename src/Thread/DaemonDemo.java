@@ -3,6 +3,7 @@ package Thread;
 
 /**
  * Created by blue on 16/3/21.
+ *  ÿª§œﬂ≥Ã
  */
 public class DaemonDemo {
     public static class DaemonT extends Thread{
@@ -23,6 +24,6 @@ public class DaemonDemo {
         t.setDaemon(true);
         t.start();
 
-        Thread.sleep(12000);
+        Thread.sleep(2000);
     }
 }
