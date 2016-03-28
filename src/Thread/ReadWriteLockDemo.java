@@ -54,8 +54,8 @@ public class ReadWriteLockDemo {
             @Override
             public void run() {
                 try {
-                    demo.handleWrite(writeLock,new Random().nextInt());
-                    demo.handleWrite(lock,new Random().nextInt());
+                   // demo.handleWrite(writeLock,new Random().nextInt());
+                   demo.handleWrite(lock,new Random().nextInt());
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
