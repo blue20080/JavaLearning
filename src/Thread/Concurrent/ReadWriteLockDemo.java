@@ -1,6 +1,5 @@
-package Thread;
+package Thread.Concurrent;
 
-import java.util.Objects;
 import java.util.Random;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

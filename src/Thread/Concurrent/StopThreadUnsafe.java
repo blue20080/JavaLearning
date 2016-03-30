@@ -1,4 +1,4 @@
-package Thread;
+package Thread.Concurrent;
 
 /**
  * Created by blue on 16/3/21.

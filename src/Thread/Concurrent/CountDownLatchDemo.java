@@ -1,4 +1,4 @@
-package Thread;
+package Thread.Concurrent;
 
 import java.util.Random;
 import java.util.concurrent.*;
