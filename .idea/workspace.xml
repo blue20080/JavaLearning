@@ -2,40 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011152dd-7fc6-4d8b-ae2a-60c5511e3b08" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Thread/model/Future/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Thread/model/ProcdureConsumer/Consumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Thread/Concurrent/CountTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Thread/model/Future/Data.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Thread/Concurrent/DivTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Thread/model/Future/FutureData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Thread/model/Future/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Thread/model/ProcdureConsumer/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Thread/model/Future/MainFuture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Thread/model/ProcdureConsumer/PCData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Thread/model/ProcdureConsumer/Procedure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Thread/model/Future/RealData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Thread/model/Future/RealDataFuture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Thread/model/StaticSingleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Thread/Akka/HelloMainSimple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Thread/Akka/HelloWorld.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_11_2_3_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Thread/Akka/samplehello.conf" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\JVM\OOMObject.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\Concurrent\AccountingVol.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\Concurrent\CountDownLatchDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\Concurrent\CountTask.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\Concurrent\DaemonDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\Concurrent\DivTask.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\Concurrent\FairLock.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\Concurrent\IntLock.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\Concurrent\InterruptThread.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\Concurrent\JoinMain.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\Concurrent\PriorityDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\Concurrent\ReadWriteLockDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\Concurrent\ReenterLockCondition.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\Concurrent\SimpleWN.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\Concurrent\StopThreadUnsafe.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\Concurrent\ThreadPoolDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\Concurrent\TimeLock.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\model\Future\Client.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\model\Future\Data.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\model\Future\FutureData.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\model\Future\Main.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\model\Future\MainFuture.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\model\Future\RealData.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\model\Future\RealDataFuture.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\model\ProcdureConsumer\Consumer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\model\ProcdureConsumer\Main.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\model\ProcdureConsumer\PCData.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\model\ProcdureConsumer\Procedure.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\blue\b1\JavaLearning\src\Thread\model\StaticSingleton.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/JavaLearning.iml" afterPath="$PROJECT_DIR$/.idea/JavaLearning.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\blue\b1\JavaLearning\src\Thread\AccountingVol.java" afterPath="$PROJECT_DIR$/src/Thread/Concurrent/AccountingVol.java" />
-      <change type="MOVED" beforePath="E:\blue\b1\JavaLearning\src\Thread\CountDownLatchDemo.java" afterPath="$PROJECT_DIR$/src/Thread/Concurrent/CountDownLatchDemo.java" />
-      <change type="MOVED" beforePath="E:\blue\b1\JavaLearning\src\Thread\DaemonDemo.java" afterPath="$PROJECT_DIR$/src/Thread/Concurrent/DaemonDemo.java" />
-      <change type="MOVED" beforePath="E:\blue\b1\JavaLearning\src\Thread\FairLock.java" afterPath="$PROJECT_DIR$/src/Thread/Concurrent/FairLock.java" />
-      <change type="MOVED" beforePath="E:\blue\b1\JavaLearning\src\Thread\IntLock.java" afterPath="$PROJECT_DIR$/src/Thread/Concurrent/IntLock.java" />
-      <change type="MOVED" beforePath="E:\blue\b1\JavaLearning\src\Thread\InterruptThread.java" afterPath="$PROJECT_DIR$/src/Thread/Concurrent/InterruptThread.java" />
-      <change type="MOVED" beforePath="E:\blue\b1\JavaLearning\src\Thread\JoinMain.java" afterPath="$PROJECT_DIR$/src/Thread/Concurrent/JoinMain.java" />
-      <change type="MOVED" beforePath="E:\blue\b1\JavaLearning\src\Thread\PriorityDemo.java" afterPath="$PROJECT_DIR$/src/Thread/Concurrent/PriorityDemo.java" />
-      <change type="MOVED" beforePath="E:\blue\b1\JavaLearning\src\Thread\ReadWriteLockDemo.java" afterPath="$PROJECT_DIR$/src/Thread/Concurrent/ReadWriteLockDemo.java" />
-      <change type="MOVED" beforePath="E:\blue\b1\JavaLearning\src\Thread\ReenterLockCondition.java" afterPath="$PROJECT_DIR$/src/Thread/Concurrent/ReenterLockCondition.java" />
-      <change type="MOVED" beforePath="E:\blue\b1\JavaLearning\src\Thread\SimpleWN.java" afterPath="$PROJECT_DIR$/src/Thread/Concurrent/SimpleWN.java" />
-      <change type="MOVED" beforePath="E:\blue\b1\JavaLearning\src\Thread\StopThreadUnsafe.java" afterPath="$PROJECT_DIR$/src/Thread/Concurrent/StopThreadUnsafe.java" />
-      <change type="MOVED" beforePath="E:\blue\b1\JavaLearning\src\Thread\ThreadPoolDemo.java" afterPath="$PROJECT_DIR$/src/Thread/Concurrent/ThreadPoolDemo.java" />
-      <change type="MOVED" beforePath="E:\blue\b1\JavaLearning\src\Thread\TimeLock.java" afterPath="$PROJECT_DIR$/src/Thread/Concurrent/TimeLock.java" />
     </list>
     <ignored path="JavaLearning.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,73 +65,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Thread/model/Future/Main.java">
+      <file leaf-file-name="Greeter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Akka/Greeter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FutureData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Thread/model/Future/FutureData.java">
+      <file leaf-file-name="HelloMainSimple.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Akka/HelloMainSimple.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Thread/model/Future/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-              <folding>
-                <element signature="e#201#375#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RealData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Thread/model/Future/RealData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-              <folding>
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RealDataFuture.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Thread/model/Future/RealDataFuture.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainFuture.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Thread/model/Future/MainFuture.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63013697">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <caret line="14" column="59" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#414#422#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="samplehello.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Akka/samplehello.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Akka/HelloWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3642384">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,6 +177,15 @@
         <option value="$PROJECT_DIR$/src/Thread/model/Future/RealData.java" />
         <option value="$PROJECT_DIR$/src/Thread/model/Future/RealDataFuture.java" />
         <option value="$PROJECT_DIR$/src/Thread/model/Future/MainFuture.java" />
+        <option value="$PROJECT_DIR$/src/Thread/model/IO/MultiThreadEchoServer.java" />
+        <option value="$PROJECT_DIR$/src/Thread/model/IO/sendMsg.java" />
+        <option value="$PROJECT_DIR$/src/Thread/Akka/Greeter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Thread/Akka/Greeter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Thread/Akka/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/JVM/OOMObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Thread/Akka/samplehello.conf" />
+        <option value="$PROJECT_DIR$/src/main/java/Thread/Akka/HelloMainSimple.java" />
       </list>
     </option>
   </component>
@@ -192,15 +195,48 @@
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="JavaLearning" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="JavaLearning" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="NamedScopeManager">
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="125" />
+    <option name="y" value="38" />
+    <option name="width" value="1636" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -235,6 +271,10 @@
               <option name="myItemId" value="JavaLearning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -257,6 +297,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -264,7 +370,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="Akka" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -282,21 +388,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Thread" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaLearning" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,6 +411,8 @@
     <property name="FullScreen" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -324,15 +422,15 @@
       <recent name="Thread.model.Future" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainFuture">
-    <configuration default="false" name="AccountingVol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.HelloMainSimple">
+    <configuration default="false" name="MultiThreadEchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Thread.Concurrent.*" />
+          <option name="PATTERN" value="Thread.model.IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Thread.Concurrent.AccountingVol" />
+      <option name="MAIN_CLASS_NAME" value="Thread.model.IO.MultiThreadEchoServer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -345,14 +443,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="StaticSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="sendMsg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Thread.model.*" />
+          <option name="PATTERN" value="Thread.model.IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Thread.model.StaticSingleton" />
+      <option name="MAIN_CLASS_NAME" value="Thread.model.IO.sendMsg" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -365,14 +463,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="HelloMainSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Thread.model.ProcdureConsumer.*" />
+          <option name="PATTERN" value="Thread.Akka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Thread.model.ProcdureConsumer.Main" />
+      <option name="MAIN_CLASS_NAME" value="Thread.Akka.HelloMainSimple" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -385,14 +483,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Thread.model.Future.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Thread.model.Future.Main" />
+    <configuration default="false" name="OOMObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="OOMObject" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -405,14 +498,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MainFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="OOMObject (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Thread.model.Future.*" />
+          <option name="PATTERN" value="JVM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Thread.model.Future.MainFuture" />
+      <option name="MAIN_CLASS_NAME" value="JVM.OOMObject" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -512,6 +605,28 @@
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -618,19 +733,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.AccountingVol" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StaticSingleton" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MainFuture" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MultiThreadEchoServer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.sendMsg" />
+      <item index="2" class="java.lang.String" itemvalue="Application.HelloMainSimple" />
+      <item index="3" class="java.lang.String" itemvalue="Application.OOMObject" />
+      <item index="4" class="java.lang.String" itemvalue="Application.OOMObject (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainFuture" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StaticSingleton" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AccountingVol" />
+        <item index="0" class="java.lang.String" itemvalue="Application.HelloMainSimple" />
+        <item index="1" class="java.lang.String" itemvalue="Application.OOMObject (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.OOMObject" />
+        <item index="3" class="java.lang.String" itemvalue="Application.sendMsg" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MultiThreadEchoServer" />
       </list>
     </recent_temporary>
   </component>
@@ -659,21 +774,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="125" y="38" width="1636" height="1040" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879817" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13071066" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23608018" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28231293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22707888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27030456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -703,43 +818,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/CountDownLatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/ThreadPoolDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/DivTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/CountTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/ReenterLockCondition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/ReenterLockCondition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
@@ -749,7 +828,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/ReadWriteLockDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/ReadWriteLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -757,7 +836,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/PriorityDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/PriorityDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="72" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="72" />
@@ -765,7 +844,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/InterruptThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/InterruptThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="72" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="72" />
@@ -773,7 +852,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/IntLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/IntLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
@@ -781,7 +860,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/SimpleWN.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/SimpleWN.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
@@ -789,7 +868,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/StopThreadUnsafe.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/StopThreadUnsafe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
@@ -800,7 +879,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/AccountingVol.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/AccountingVol.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -808,21 +887,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/JoinMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/JoinMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/DaemonDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/DaemonDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/PriorityDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/PriorityDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
@@ -830,7 +909,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/InterruptThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/InterruptThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="72" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="72" />
@@ -838,35 +917,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JVM/OOMObject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JVM/OOMObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/StopThreadUnsafe.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/StopThreadUnsafe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JVM/OOMObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22593321">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/DaemonDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/DaemonDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/StopThreadUnsafe.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/StopThreadUnsafe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4993954">
           <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
@@ -877,7 +949,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/SimpleWN.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/SimpleWN.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2490931">
           <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
@@ -885,7 +957,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/FairLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/FairLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5416667">
           <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
@@ -893,7 +965,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/TimeLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/TimeLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.75">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
@@ -903,14 +975,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/JoinMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/JoinMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5">
           <caret line="14" column="72" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/InterruptThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/InterruptThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="72" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="72" />
@@ -918,7 +990,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/IntLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/IntLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
@@ -926,7 +998,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/ReenterLockCondition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/ReenterLockCondition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
@@ -936,7 +1008,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/ReadWriteLockDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/ReadWriteLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
@@ -944,7 +1016,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/PriorityDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/PriorityDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
@@ -952,7 +1024,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/DivTask.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/DivTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="42" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="42" />
@@ -960,7 +1032,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/CountTask.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/CountTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
@@ -968,7 +1040,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/AccountingVol.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/AccountingVol.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5021645">
           <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
@@ -976,85 +1048,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/ThreadPoolDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/ThreadPoolDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Concurrent/CountDownLatchDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Concurrent/CountDownLatchDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33621934">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/model/StaticSingleton.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/model/StaticSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="false" />
+            <element signature="e#194#195#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+            <element signature="e#413#414#0" expanded="false" />
+            <element signature="e#458#459#0" expanded="false" />
+            <element signature="e#515#516#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/model/ProcdureConsumer/PCData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/model/ProcdureConsumer/PCData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="false" />
+            <element signature="e#185#186#0" expanded="false" />
+            <element signature="e#158#159#0" expanded="false" />
+            <element signature="e#185#186#0" expanded="false" />
+            <element signature="e#158#159#0" expanded="false" />
+            <element signature="e#185#186#0" expanded="false" />
+            <element signature="e#361#362#0" expanded="false" />
+            <element signature="e#396#397#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/model/ProcdureConsumer/Procedure.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/model/ProcdureConsumer/Procedure.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#557#558#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#1315#1316#0" expanded="false" />
+            <element signature="e#1348#1349#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/model/ProcdureConsumer/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/model/ProcdureConsumer/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#403#404#0" expanded="false" />
+            <element signature="e#437#438#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/model/Future/Data.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/model/Future/Data.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -1062,72 +1132,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/model/ProcdureConsumer/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/model/ProcdureConsumer/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29984778">
           <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
           <folding>
-            <element signature="e#267#275#0" expanded="true" />
+            <element signature="e#267#275#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/model/Future/Client.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/net/SocketInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="1.1334623">
+          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/model/Future/MainFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45738637">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#414#422#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/model/Future/RealDataFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34517047">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/model/Future/RealData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70596594">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#529#530#0" expanded="false" />
+            <element signature="e#558#559#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/model/Future/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32670453">
           <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding>
-            <element signature="e#201#375#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#201#375#0" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/model/Future/FutureData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/model/Future/FutureData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.45738637">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/model/Future/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/model/Future/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.32670453">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/model/Future/RealData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/model/IO/sendMsg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/model/IO/MultiThreadEchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4011628">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JVM/OOMObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24261603">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding>
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/model/Future/RealDataFuture.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/model/Future/MainFuture.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Akka/samplehello.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63013697">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Akka/Greeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Akka/HelloMainSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#414#422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Akka/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3642384">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1210,6 +1355,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.typesafe.akka:akka-actor_2.11:2.3.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
